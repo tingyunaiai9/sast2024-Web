@@ -1,0 +1,17 @@
+
+.block {
+
+    border: 1px solid #c6c6c6; /* 设置边框 */
+    padding: 10px;         /* 设置内边距 */
+    width: 100px;          /* 设置宽度 */
+    margin: 0 auto;        /* 水平居中 */
+    text-align: center;    /* 文本居中 */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+    border-radius: 8px;    /* 设置圆角边框 */
+    background-color: #fff; /* 设置背景颜色 */
+}
+
+.block img {
+    max-width: 100%;       /* 图片最大宽度为100%，保持自适应 */
+    height: auto;          /* 自动调整高度 */
+}
