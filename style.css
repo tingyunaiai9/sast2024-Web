@@ -1,4 +1,11 @@
 
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 创建5个等宽的列 */
+    grid-template-rows: repeat(2, auto); /* 创建2行，高度根据内容自适应 */
+    gap: 10px; /* 设置行和列之间的间距 */
+}
+
 .block {
 
     border: 1px solid #c6c6c6; /* 设置边框 */
@@ -22,3 +29,21 @@
     max-width: 100%;       /* 图片最大宽度为100%，保持自适应 */
     height: auto;          /* 自动调整高度 */
 }
+
+.fadein {
+    -webkit-transition: all 0.67s;
+    -moz-transition: all 0.67s;
+    -ms-transition: all 0.67s;
+    -o-transition: all 0.67s;
+    transition: all 0.67s;
+    opacity: 1;
+  }
+
+.fadeout {
+    -webkit-transition: all 0.67s;
+    -moz-transition: all 0.67s;
+    -ms-transition: all 0.67s;
+    -o-transition: all 0.67s;
+    transition: all 0.67s;
+    opacity: 0;
+  }
