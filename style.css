@@ -9,6 +9,13 @@
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
     border-radius: 8px;    /* 设置圆角边框 */
     background-color: #fff; /* 设置背景颜色 */
+
+    transition: opacity 0.5s ease-in-out; /* 添加过渡效果 */
+    opacity: 0.7; /* 初始透明度 */
+}
+
+.block:hover {
+    opacity: 1; /* 鼠标悬停时完全不透明 */
 }
 
 .block img {
