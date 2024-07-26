@@ -43,6 +43,9 @@ document.addEventListener("DOMContentLoaded", function() {
                     image.src = "银灰.jpg";
                     word.innerText = "银灰";
 
+                    // image.src = "某某.jpg";
+                    // word.innerText = "某某";
+
                     image.classList.add("fadein");
                     word.classList.add("fadein");
                     setTimeout(function() {
@@ -53,6 +56,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 }, 500);
             }
             else if(src == "银灰.jpg") {
+            // else if(src == "某某.jpg") {
                 image.classList.add("fadeout");
                 word.classList.add("fadeout");
 
